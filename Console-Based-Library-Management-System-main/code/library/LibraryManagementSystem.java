@@ -21,7 +21,7 @@ public class LibraryManagementSystem {
             System.out.println(boldTextStart +"======================================================================"+ boldTextEnd);
             System.out.println(boldTextStart + "**********Welcome to the Library Management System**********" + boldTextEnd);
             System.out.println(boldTextStart +"======================================================================"+ boldTextEnd);
-            System.out.println(boldTextStart +"1. Register"+ boldTextEnd);
+            System.out.println(boldTextStart +"1. Sign Up"+ boldTextEnd);
             System.out.println(boldTextStart +"2. Login"+ boldTextEnd);
             System.out.println(boldTextStart +"3. Administrator "+ boldTextEnd);
             System.out.println(boldTextStart +"4. Exit"+ boldTextEnd);
@@ -132,7 +132,7 @@ public class LibraryManagementSystem {
                     if (admin.addBook(title, author, publicationDate, isbn, tags)) {
                         System.out.println(greenColorStart +"Book added successfully."+ resetGreenColor);
                     } else {
-                        System.out.println(redColorStart +"Failed to add book."+ resetColor);
+                        System.out.println(redColorStart +"Failed to add books."+ resetColor);
                     }
                     break;
                 case 3:
